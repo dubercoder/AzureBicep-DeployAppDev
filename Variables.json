@@ -1,0 +1,79 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "location": {
+          "value": "eastus2"
+      },
+      "resourceGroupName": {
+          "value": "data-rg-dev-code"
+      },
+      "tags": {
+        "value": {
+                "PROYECTO":"VENTAS",
+                "AMBIENTE":"DEV",
+                "APLICACION":"CLIENTEDATA"
+        }
+      },
+      "virtualmachineName": {
+        "value": "vm"
+      },
+      "vmSize": {
+        "value": "Standard_D2s_v3"
+      },
+      "vnetppal": {
+        "value": "/subscriptions/09b166a6-ea72-459f-96b2-85a3e880939d/resourceGroups/rg-networking-dev/providers/Microsoft.Network/virtualNetworks/data-vnet-ppal"
+      },
+      "vmSubnet": {
+        "value": "subnet-vm"
+      },
+      "dbSubnet": {
+        "value": "subnet-db"
+      },
+      "sngName": {
+        "value": "NSG"
+      },
+      "nicName": {
+        "value": "NIC"
+      },
+      "vmIP": {
+        "value": "10.0.1.5"
+      },
+      "sqlserverName": {
+        "value": "sqlserverdataempressa"
+      },
+      "sqldatabaseName": {
+        "value": "databasedata"
+      },
+      "PEsqlserverName": {
+        "value": "pesqlserver"
+      },
+      "sqlserverTier": {
+        "value": "Standard"
+      },
+      "sqlserverSKU": {
+        "value": "Standard"
+      },
+      "Catalogcollation": {
+        "value": "SQL_Latin1_General_CP1_CI_AS"
+      },
+      "dbcollation": {
+        "value": "SQL_Latin1_General_CP1_CS_AS"
+      },
+      "adminuserloginsql": {
+        "value": "adminusersql"
+      },
+    "adminuserloginvm": {
+      "value": "adminuservm"
+    },
+      "password": {
+        "value": "Col0mbi42023"
+      },
+      "ambiente": {
+        "value": "dev"
+      }
+      }
+    }
+  
+
+
