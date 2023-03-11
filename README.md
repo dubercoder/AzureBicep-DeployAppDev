@@ -5,8 +5,8 @@ ESCENARIO:
 La empresa Mordor SA requiere automatizar el despliegue de recursos de infraestructura sobre la nube de azure para una aplicación que usará el área de vinculaciones de nuevas cuentas de la gerencia de ventas con un nuevo producto. Por tanto el área de  IT que soporta la iniciativa, requiere iniciar pruebas en el ambiente de desarrollo con un diseño de arquitectura sobre azure, para lo cual contrataron previamente a un arquitecto especialista que diseñó y aprobó la arquitectura de componentes azure a desplegar.
 El área de automatización y Devops de Mordor SA requiere una solución que automatice la infraestructura, adicionalmente requieren que todo el proceso de posterior instalación y aplicación de configuración y software sobre la infraestructura sea también versionado/automatizado en Azure Devops.
 
-**ARTICULO COMPLETO:**  https://bitly.ws/BsHy <br>
-**Descargar Documento de Despliegue Automatizado:** https://bitly.ws/BtMG   <br>
+**ARTICULO COMPLETO:**  [Ir al artículo](https://dubercoder.com/2023/03/07/automatizando-infraestructura-como-codigo-para-ambiente-de-desarrollo-de-aplicacion-linux-con-bicep-en-la-nube-de-azure/). <br>
+**Descargar Documento de Despliegue Automatizado:** [Ver el documento](https://dubercoder.com/wp-content/uploads/2023/03/DOCUMENTO-PARA-DESPLIEGUE-AUTOMATIZADO-EN-AZURE.pdf).<br>
 **SOLUCIÓN**  <br>
 **El siguiente video muestra la metodología y el proceso de principio a fin para la construcción del código IaC.**  <br>
  <br>
